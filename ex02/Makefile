@@ -9,7 +9,7 @@ OBJS		=	$(SRC:.cpp=.o)
 CC		=	c++
 
 # -std=c++98 displays an error if an unauthorized function is left in the code
-CXXFLAGS		=	-Wall -Wextra -Werror -std=c++98 -g -fsanitize=address
+CXXFLAGS		=	-Wall -Wextra -Werror -std=c++98 -g3 -fsanitize=address
 
 EXE_NAME	=	-o $(NAME)
 
